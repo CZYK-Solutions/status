@@ -1,0 +1,26 @@
+# Change these first
+owner: CZYK-Solutions # Your GitHub organization or username, where this repository lives
+repo: status # The name of this repository
+
+sites:
+  - name: Pack a Thing
+    url: https://www.packathing.nl/up
+
+status-website:
+  # Add your custom domain name, or remove the `cname` line if you don't have a domain
+  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
+  cname: status.packathing.nl
+  # baseUrl: /your-repo-name
+  name: Pack a Thing Status
+  introTitle: "**Pack a Thing** status"
+  introMessage: Real-time status of Pack a Thing, powered by [Upptime](https://github.com/upptime/upptime) — no third-party monitoring service, just GitHub Actions, Issues, and Pages.
+  navbar:
+    - title: Status
+      href: /
+    - title: Pack a Thing
+      href: https://www.packathing.nl
+    - title: GitHub
+      href: https://github.com/$OWNER/$REPO
+
+# Upptime also supports notifications, assigning issues, and more
+# See https://upptime.js.org/docs/configuration
